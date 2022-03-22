@@ -7,14 +7,14 @@ const reset = document.querySelector('#reset');
 
 p1PlusOne.addEventListener('click', function(e) {
   p1score.innerText = parseInt(p1score.innerText) + 1;
-})
+});
 
 p2PlusOne.addEventListener('click', function() {
   p2score.innerText = parseInt(p2score.innerText) + 1;
-})
+});
 
 reset.addEventListener('click', function() {
-  p1score.innerText = "0"
-  p2score.innerText = "0"
+  p1score.innerText = "0";
+  p2score.innerText = "0";
 
-})
+});
