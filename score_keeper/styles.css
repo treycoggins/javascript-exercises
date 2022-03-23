@@ -32,7 +32,6 @@ div {
 #p2DisplayScore {
   font-size: 3em;
   font-weight: 700;
-  color: black;
 }
 
 h1,
@@ -78,5 +77,13 @@ form {
   color: white;
   padding: 10px;
   width: 100%;
+}
+
+.win {
+  color: #339955;
+}
+
+.lose {
+  color: #c50f0f;
 }
 /*# sourceMappingURL=styles.css.map */
