@@ -1,3 +1,5 @@
+// Refactored from app.js
+
 const p1 = {
   score: 0,
   button: document.querySelector('#p1button'),
@@ -44,7 +46,7 @@ winningScoreSelect.addEventListener('change', function() {
    reset();
 });
 
-resetButton.addEventListener('click', reset) 
+resetButton.addEventListener('click', reset);
 
 function reset() {
   isGameOver = false;
