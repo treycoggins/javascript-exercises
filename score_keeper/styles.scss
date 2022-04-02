@@ -1,0 +1,79 @@
+html {
+    font-family: Arial;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  border: 1px solid #b1b1b1;
+  
+}
+#hero-img {
+  max-width: 500px;
+  max-height: 300px;
+  display: block;
+}
+
+#p1DisplayScore,
+#p2DisplayScore {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3 {
+  margin: 10px 0;
+  padding: 5px;
+  
+}
+
+p {
+  display: inline;
+  padding: 5px;
+}
+
+form {
+  display: inline-block;
+  padding: 0px 5px 10px;
+}
+
+.buttons {
+  display: flex;
+  padding: 0px;  
+}
+
+
+#p1button {
+  background-color: #339955;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+#p2button {
+  background-color: #1c2aa3;
+  color: white;
+  padding: 10px;
+  width: 100%;  
+}
+
+#reset {
+  background-color: #c50f0f;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.win {
+  color: #339955
+}
+
+.lose {
+  color: #c50f0f
+}
